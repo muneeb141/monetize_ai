@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include monetize_ai *.css
+recursive-include monetize_ai *.csv
+recursive-include monetize_ai *.html
+recursive-include monetize_ai *.ico
+recursive-include monetize_ai *.js
+recursive-include monetize_ai *.json
+recursive-include monetize_ai *.md
+recursive-include monetize_ai *.png
+recursive-include monetize_ai *.py
+recursive-include monetize_ai *.svg
+recursive-include monetize_ai *.txt
+recursive-exclude monetize_ai *.pyc
